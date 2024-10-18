@@ -58,6 +58,17 @@
       }
     },
     {
+      "__resolveType": "site/sections/Streamshop/StreamShopCarousel.tsx",
+      "slugs": "dBXLVDZM,B9hKEmHZ,2FMdPkiN,sBLteawk,DfnZOD3J",
+      "title": "Carousel",
+      "style": {
+        "containerWidth": "full",
+        "videoWidth": "22%",
+        "videoWidthMobile": "90%"
+      },
+      "cta": "See all"
+    },
+    {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
         "__resolveType": "site/sections/Category/CategoryGrid.tsx",
