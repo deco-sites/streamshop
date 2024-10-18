@@ -49,6 +49,21 @@
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
+        "__resolveType": "site/sections/Streamshop/StreamShopStories.tsx",
+        "title": "Stories",
+        "slugs": "dBXLVDZM,B9hKEmHZ,2FMdPkiN,sBLteawk,DfnZOD3J,dBXLVDZM,B9hKEmHZ,2FMdPkiN,sBLteawk,DfnZOD3J,dBXLVDZM,B9hKEmHZ,2FMdPkiN,sBLteawk,DfnZOD3J"
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Streamshop/StreamShopInfo&Reels.tsx",
+        "text": "<div class=\"lynx-subtitle\">MUITO&nbsp;MAIS&nbsp;INTERATIVIDADE&nbsp;E&nbsp;CONVERSÃO</div><h2 class=\"lynx-heading\"><span style=\"font-size: 24pt;\" data-mce-style=\"font-size: 24pt;\">StreamShop + Mondelez</span></h2><p class=\"lynx-paragraph\"><strong><span style=\"font-size: 18pt;\" data-mce-style=\"font-size: 18pt;\">Já imaginou poder transformar todos os videos da Mondelez em vídeos interativos?</span><br>‍</strong><br><span style=\"font-size: 14pt;\" data-mce-style=\"font-size: 14pt;\">O Video Commerce da StreamShop é uma solução inovadora de simples implementação que eleva a experiência dos seus clientes com a sua marca.</span><br><br><span style=\"font-size: 14pt;\" data-mce-style=\"font-size: 14pt;\">Incorpore os vídeos que você já produz para as redes sociais às páginas do seu site, oferecendo muito mais conteúdo e interatividade para seus consumidores.</span><br>‍<br><span style=\"font-size: 14pt;\" data-mce-style=\"font-size: 14pt;\"><strong>Clique nos videos e experimente!</strong></span></p>"
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
         "__resolveType": "site/sections/Product/ProductShelf.tsx",
         "title": "Featured Products",
         "cta": "/mono",
@@ -59,10 +74,10 @@
     },
     {
       "__resolveType": "site/sections/Streamshop/StreamShopCarousel.tsx",
-      "slugs": "dBXLVDZM,B9hKEmHZ,2FMdPkiN,sBLteawk,DfnZOD3J",
+      "slugs": "dBXLVDZM,B9hKEmHZ,2FMdPkiN,sBLteawk,DfnZOD3J,dBXLVDZM,B9hKEmHZ,2FMdPkiN,sBLteawk,DfnZOD3J,dBXLVDZM,B9hKEmHZ,2FMdPkiN,sBLteawk,DfnZOD3J",
       "title": "Carousel",
       "style": {
-        "containerWidth": "full",
+        "containerWidth": "container",
         "videoWidth": "22%",
         "videoWidthMobile": "90%"
       },

@@ -41,7 +41,10 @@ import * as $$$$$$24 from "./sections/Session.tsx";
 import * as $$$$$$25 from "./sections/Social/InstagramPosts.tsx";
 import * as $$$$$$26 from "./sections/Social/WhatsApp.tsx";
 import * as $$$$$$27 from "./sections/Streamshop/StreamShopCarousel.tsx";
-import * as $$$$$$28 from "./sections/Theme/Theme.tsx";
+import * as $$$$$$28 from "./sections/Streamshop/StreamShopInfo&Reels.tsx";
+import * as $$$$$$29 from "./sections/Streamshop/StreamShopReels.tsx";
+import * as $$$$$$30 from "./sections/Streamshop/StreamShopStories.tsx";
+import * as $$$$$$31 from "./sections/Theme/Theme.tsx";
 
 const manifest = {
   "loaders": {
@@ -80,7 +83,10 @@ const manifest = {
     "site/sections/Social/InstagramPosts.tsx": $$$$$$25,
     "site/sections/Social/WhatsApp.tsx": $$$$$$26,
     "site/sections/Streamshop/StreamShopCarousel.tsx": $$$$$$27,
-    "site/sections/Theme/Theme.tsx": $$$$$$28,
+    "site/sections/Streamshop/StreamShopInfo&Reels.tsx": $$$$$$28,
+    "site/sections/Streamshop/StreamShopReels.tsx": $$$$$$29,
+    "site/sections/Streamshop/StreamShopStories.tsx": $$$$$$30,
+    "site/sections/Theme/Theme.tsx": $$$$$$31,
   },
   "actions": {
     "site/actions/minicart/submit.ts": $$$$$$$$$0,

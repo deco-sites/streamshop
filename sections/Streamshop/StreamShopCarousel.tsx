@@ -10,26 +10,51 @@ import { useDevice } from "@deco/deco/hooks";
 // it will be easier to use the data from the loaders
 // on deco.cx admin
 
-interface Style {
+interface StyleDesktop {
   /**
-   * @title Width - Desktop
-   * @description Largura dos Video
-   * @default 100
+   * @title Altura do vídeo
    */
-  videoWidth?: string;
+  videoHeigth?: string;
 
   /**
-   * @title Width - Mobile
-   * @description Largura dos Video
-   * @default 100
+   * @titleLargura do vídeo dentro do carrosel
    */
-  videoWidthMobile?: string;
+  videoWidth?: string;
+}
+
+interface StyleMobile {
+  /**
+   * @title Altura do vídeo
+   */
+  videoHeigth?: string;
+
+  /**
+   * @title Largura do vídeo dentro do carrosel
+   */
+  videoWidth?: string;
+}
+
+interface Style {
   /**
    * @title Container
    * @description 100% do site ou container
-   * @default 100
    */
   containerWidth?: "container" | "full";
+
+  /**
+   * @title Arredondamento dos cantos
+   */
+  radius?: "pequeno" | "médio" | "grande" | "pílula";
+
+  /**
+   * @title Desktop
+   */
+  styleDesktop?: StyleDesktop;
+
+  /**
+   * @title Mobile
+   */
+  styleMobile?: StyleMobile;
 }
 
 interface Props extends SectionHeaderProps {
@@ -50,34 +75,39 @@ interface Props extends SectionHeaderProps {
  */
 export default function Carousel({ title, cta, slugs, style }: Props) {
   const device = useDevice();
+  const currentStyle = device == "desktop"
+    ? style.styleDesktop
+    : style.styleMobile;
   return (
     <>
-      <Head>
-        <script
-          async
-          src="https://assets.streamshop.com.br/sdk-ads/liveshop-ads-video.min.js"
-        >
-        </script>
-        <script
-          async
-          src="https://assets.streamshop.com.br/sdk-ads/liveshop-ads-carousel.min.js"
-        >
-        </script>
-      </Head>
       <Section.Container
         class={clx(
           style?.containerWidth == "full" && "w-full !max-w-full",
           style?.containerWidth == "container" && "container",
         )}
       >
-        <Section.Header title={title} cta={cta} />
+        <div
+          class={clx(
+            style?.containerWidth == "full" && "sm:!px-5",
+          )}
+        >
+          <Section.Header title={title} cta={cta} />
+        </div>
 
-        <div style="width: 100%; height: 580px;" class="w-full px-5 sm:px-0">
+        <div style="width: 100%;" class="w-full px-5 sm:px-0">
           {/* @ts-ignore */}
           <liveshop-ads-carousel
-            videos-width={device != "desktop"
-              ? style?.videoWidthMobile
-              : style.videoWidth}
+            videos-width={currentStyle?.videoWidth}
+            height={currentStyle?.videoHeigth}
+            border-radius={style?.radius == "pequeno"
+              ? "4px"
+              : style?.radius == "médio"
+              ? "10px"
+              : style?.radius == "grande"
+              ? "20px"
+              : style?.radius == "pílula"
+              ? "500px"
+              : "5px"}
             slugs-video={slugs}
           >
             {/* @ts-ignore */}

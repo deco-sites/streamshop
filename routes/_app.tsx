@@ -27,6 +27,17 @@ export default defineApp(async (_req, ctx) => {
 
         {/* Web Manifest */}
         <link rel="manifest" href={asset("/site.webmanifest")} />
+
+        <script
+          async
+          src="https://assets.streamshop.com.br/sdk-ads/liveshop-ads-video.min.js"
+        >
+        </script>
+        <script
+          async
+          src="https://assets.streamshop.com.br/sdk-ads/liveshop-ads-carousel.min.js"
+        >
+        </script>
       </Head>
 
       {/* Rest of Preact tree */}
