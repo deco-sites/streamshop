@@ -7,7 +7,7 @@ interface Props {
 }
 
 /**
- * @title Reels
+ * @title StreamShop Reels
  */
 export default function Stories({ storeSlug }: Props) {
   return (

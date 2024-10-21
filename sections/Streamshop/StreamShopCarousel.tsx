@@ -71,10 +71,10 @@ interface Props extends SectionHeaderProps {
    * @title Estilo
    */
   style: Style;
-}
+} 
 
 /**
- * @title Carousel Video
+ * @title StreamShop Carousel Video
  */
 export default function Carousel({ title, cta, slugs, style }: Props) {
   const device = useDevice();

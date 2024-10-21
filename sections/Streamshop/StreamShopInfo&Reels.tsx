@@ -22,7 +22,7 @@ interface Props extends SectionHeaderProps {
 }
 
 /**
- * @title Info & Stories
+ * @title StreamShop Info & Stories
  */
 export default function InfoStories({ title, cta, storeSlug, text }: Props) {
   return (
