@@ -12,11 +12,13 @@ import { useDevice } from "@deco/deco/hooks";
 interface StyleDesktop {
   /**
    * @title Altura do vídeo
+   * @desription px ou %
    */
   videoHeigth?: string;
 
   /**
    * @titleLargura do vídeo dentro do carrosel
+   * @desription px ou %
    */
   videoWidth?: string;
 }
@@ -24,11 +26,13 @@ interface StyleDesktop {
 interface StyleMobile {
   /**
    * @title Altura do vídeo
+   * @desription px ou %
    */
   videoHeigth?: string;
 
   /**
    * @title Largura do vídeo dentro do carrosel
+   * @desription px ou %
    */
   videoWidth?: string;
 }
