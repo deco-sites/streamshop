@@ -79,7 +79,10 @@
       "style": {
         "containerWidth": "container",
         "videoWidth": "22%",
-        "videoWidthMobile": "90%"
+        "videoWidthMobile": "90%",
+        "styleDesktop": {
+          "videoWidth": "300px"
+        }
       },
       "cta": "See all"
     },

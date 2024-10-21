@@ -1,4 +1,3 @@
-import { Head } from "$fresh/runtime.ts";
 import { clx } from "../../sdk/clx.ts";
 import Section, {
   Props as SectionHeaderProps,

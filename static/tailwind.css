@@ -5454,6 +5454,14 @@ details.collapse summary::-webkit-details-marker {
   display: none;
 }
 
+@media not all and (min-width: 768px) {
+
+  .max-md\:px-5 {
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+  }
+}
+
 @media (min-width: 640px) {
 
   .sm\:bottom-2 {

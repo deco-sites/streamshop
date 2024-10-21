@@ -29,7 +29,18 @@ export default function InfoStories({ title, cta, storeSlug, text }: Props) {
     <>
       <Section.Container>
         <Section.Header title={title} cta={cta} />
-        <div class="w-full flex justify-between items-start flex-col sm:flex-row gap-4">
+        <div class="w-full flex justify-between items-start flex-col sm:flex-row gap-4 max-md:px-5">
+          {
+            /* <div
+          style={{
+            display: "inline-block",
+            height: "auto",
+            cursor: "pointer",
+            overflow: "hidden",
+            borderRadius: "0px"
+          }}
+          hx-on:click="openStreamShopLive('https://live.hml.streamshop.com.br/trident/loja?v=WSkU9DFr')">AQUI</div> */
+          }
           <div class="w-full" dangerouslySetInnerHTML={{ __html: text }}>
           </div>
 
