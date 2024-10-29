@@ -3831,9 +3831,6 @@ details.collapse summary::-webkit-details-marker {
 .aspect-\[156\/87\] {
   aspect-ratio: 156/87;
 }
-.aspect-\[9\/16\] {
-  aspect-ratio: 9/16;
-}
 .h-12 {
   height: 3rem;
 }
@@ -3879,9 +3876,6 @@ details.collapse summary::-webkit-details-marker {
 }
 .h-px {
   height: 1px;
-}
-.h-screen {
-  height: 100vh;
 }
 .max-h-\[110px\] {
   max-height: 110px;
@@ -4022,9 +4016,6 @@ details.collapse summary::-webkit-details-marker {
 }
 .min-w-\[4px\] {
   min-width: 4px;
-}
-.\!max-w-full {
-  max-width: 100% !important;
 }
 .max-w-6xl {
   max-width: 72rem;
@@ -5454,14 +5445,6 @@ details.collapse summary::-webkit-details-marker {
   display: none;
 }
 
-@media not all and (min-width: 768px) {
-
-  .max-md\:px-5 {
-    padding-left: 1.25rem;
-    padding-right: 1.25rem;
-  }
-}
-
 @media (min-width: 640px) {
 
   .sm\:bottom-2 {
@@ -5659,11 +5642,6 @@ details.collapse summary::-webkit-details-marker {
     padding: 2.5rem;
   }
 
-  .sm\:\!px-5 {
-    padding-left: 1.25rem !important;
-    padding-right: 1.25rem !important;
-  }
-
   .sm\:px-0 {
     padding-left: 0px;
     padding-right: 0px;
@@ -5723,10 +5701,6 @@ details.collapse summary::-webkit-details-marker {
   .md\:mx-10 {
     margin-left: 2.5rem;
     margin-right: 2.5rem;
-  }
-
-  .md\:max-w-\[440px\] {
-    max-width: 440px;
   }
 
   .md\:max-w-\[50\%\] {

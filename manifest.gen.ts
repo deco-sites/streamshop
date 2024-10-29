@@ -7,7 +7,8 @@ import * as $$$$$$$$$1 from "./actions/wishlist/submit.ts";
 import * as $$$$$$$$$$$0 from "./apps/deco/analytics.ts";
 import * as $$$$$$$$$$$1 from "./apps/deco/htmx.ts";
 import * as $$$$$$$$$$$2 from "./apps/deco/shopify.ts";
-import * as $$$$$$$$$$$3 from "./apps/site.ts";
+import * as $$$$$$$$$$$3 from "./apps/local/streamshop-app.ts";
+import * as $$$$$$$$$$$4 from "./apps/site.ts";
 import * as $$$0 from "./loaders/availableIcons.ts";
 import * as $$$1 from "./loaders/icons.ts";
 import * as $$$2 from "./loaders/minicart.ts";
@@ -40,11 +41,7 @@ import * as $$$$$$23 from "./sections/Product/Wishlist.tsx";
 import * as $$$$$$24 from "./sections/Session.tsx";
 import * as $$$$$$25 from "./sections/Social/InstagramPosts.tsx";
 import * as $$$$$$26 from "./sections/Social/WhatsApp.tsx";
-import * as $$$$$$27 from "./sections/Streamshop/StreamShopCarousel.tsx";
-import * as $$$$$$28 from "./sections/Streamshop/StreamShopInfo&Reels.tsx";
-import * as $$$$$$29 from "./sections/Streamshop/StreamShopReels.tsx";
-import * as $$$$$$30 from "./sections/Streamshop/StreamShopStories.tsx";
-import * as $$$$$$31 from "./sections/Theme/Theme.tsx";
+import * as $$$$$$27 from "./sections/Theme/Theme.tsx";
 
 const manifest = {
   "loaders": {
@@ -82,11 +79,7 @@ const manifest = {
     "site/sections/Session.tsx": $$$$$$24,
     "site/sections/Social/InstagramPosts.tsx": $$$$$$25,
     "site/sections/Social/WhatsApp.tsx": $$$$$$26,
-    "site/sections/Streamshop/StreamShopCarousel.tsx": $$$$$$27,
-    "site/sections/Streamshop/StreamShopInfo&Reels.tsx": $$$$$$28,
-    "site/sections/Streamshop/StreamShopReels.tsx": $$$$$$29,
-    "site/sections/Streamshop/StreamShopStories.tsx": $$$$$$30,
-    "site/sections/Theme/Theme.tsx": $$$$$$31,
+    "site/sections/Theme/Theme.tsx": $$$$$$27,
   },
   "actions": {
     "site/actions/minicart/submit.ts": $$$$$$$$$0,
@@ -96,7 +89,8 @@ const manifest = {
     "site/apps/deco/analytics.ts": $$$$$$$$$$$0,
     "site/apps/deco/htmx.ts": $$$$$$$$$$$1,
     "site/apps/deco/shopify.ts": $$$$$$$$$$$2,
-    "site/apps/site.ts": $$$$$$$$$$$3,
+    "site/apps/local/streamshop-app.ts": $$$$$$$$$$$3,
+    "site/apps/site.ts": $$$$$$$$$$$4,
   },
   "name": "site",
   "baseUrl": import.meta.url,
