@@ -5,7 +5,7 @@
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
-        "__resolveType": "site/sections/Streamshop/StreamShopReels.tsx"
+        "__resolveType": "streamshop-app/sections/Reels.tsx"
       }
     }
   ],
