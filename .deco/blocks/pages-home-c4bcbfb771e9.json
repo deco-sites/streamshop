@@ -2,7 +2,11 @@
   "name": "Home Page",
   "sections": [
     {
-      "__resolveType": "streamshop-app/sections/Widget.tsx"
+      "__resolveType": "streamshop-app/sections/Widget.tsx",
+      "options": {
+        "positionY": "down",
+        "live": "https://lite.streamshop.com.br/streamshopdemo"
+      }
     },
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
