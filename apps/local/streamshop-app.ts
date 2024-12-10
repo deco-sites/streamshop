@@ -1,2 +1,2 @@
-export { default } from "../../streamshop-app/mod.ts";
-export * from "../../streamshop-app/mod.ts";
+export { default } from "../../../Apps/streamshop/streamshop/mod.ts";
+export * from "../../../Apps/streamshop/streamshop/mod.ts";

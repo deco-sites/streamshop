@@ -1,1 +1,0 @@
-# Stream Shop Readme
